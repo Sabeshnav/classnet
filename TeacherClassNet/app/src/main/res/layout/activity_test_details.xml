@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_test_details">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_test_details_name"
+            android:text="test name"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/design_default_color_primary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_test_details_status"
+            android:text="The test is live."
+            android:textSize="15dp"
+            android:layout_below="@id/tv_test_details_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/design_default_color_secondary"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_make_live"
+            android:text="make test live"
+            android:layout_below="@id/tv_test_details_status"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_take_down"
+            android:text="take down test"
+            android:layout_below="@id/tv_test_details_status"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

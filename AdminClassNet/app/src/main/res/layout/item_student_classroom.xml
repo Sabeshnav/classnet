@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_student_classroom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_student_name_classroom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_centerVertical="true"
+        android:text="student name"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/design_default_color_error"
+        android:id="@+id/btn_remove_student"
+        />
+
+</RelativeLayout>

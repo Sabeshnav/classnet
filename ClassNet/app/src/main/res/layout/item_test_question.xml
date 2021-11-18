@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_test_question_item"
+    android:background="@color/white"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_question"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Question 1 is here"
+        android:textSize="15dp"
+        android:textColor="@color/design_default_color_primary"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tv_question"
+        android:id="@+id/rg_choices"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_c1"
+            android:text="Choice 1"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_c2"
+            android:text="Choice 1"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_c3"
+            android:text="Choice 1"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_c4"
+            android:text="Choice 1"
+            android:textSize="15dp"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_reset"
+        android:text="reset"
+        android:layout_below="@id/rg_choices"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/design_default_color_error"
+        />
+
+
+
+</RelativeLayout>

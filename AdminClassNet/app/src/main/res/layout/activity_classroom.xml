@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_classroom">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_class_name"
+        android:layout_alignParentTop="true"
+        android:text="Class name"
+        android:textSize="30dp"
+        android:textColor="@color/design_default_color_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btn_view_students"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:text="view students"
+        android:layout_below="@id/tv_class_name"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btn_add_new_classrooom_student"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:text="add student"
+        android:layout_below="@id/btn_view_students"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btn_delete_classroom"
+        android:backgroundTint="@color/design_default_color_error"
+        android:textColor="@color/white"
+        android:text="delete classroom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+</RelativeLayout>

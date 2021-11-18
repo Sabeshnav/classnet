@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_nav_general"
+        android:title="General" />
+
+    <item
+        android:id="@+id/main_nav_online_test"
+        android:title="Online test" />
+
+    <item
+        android:id="@+id/main_nav_my_marks"
+        android:title="My marks" />
+
+</menu>
